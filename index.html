@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batman</title>
+
+    <link rel="icon" href="img/icon.png" type ='image/png'>
+
+
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/style.css">
+    <script defer src="js/script.js"></script>
+</head>
+<body>
+    <header class="header">
+        <button class="burger"></button>
+        <nav class="header__navigation navigation">
+            <button class="navigation__close"></button>
+
+            <ul class="navigation__list">
+                <li class="navigation__item">
+                    <a class="navigation__link navigation__link_active">Главная</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link " href="video.html">Видео</a>
+                </li>
+                <li class="navigation__item">
+                    <a class="navigation__link" href="photo.html">Фото</a>
+                </li>
+            </ul>
+            <p class="header__hashtag">#TheBatman</p>
+
+            <ul class="header__social social">
+                <li class="social__item">
+                    <a href="" class="social__link social__link_fb"></a>
+                </li>
+                <li class="social__item">
+                    <a href="" class="social__link social__link_tw"></a>
+                </li>
+                <li class="social__item">
+                    <a href="" class="social__link social__link_ig"></a>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="mute">
+            <input class="mute__checkbox" type="checkbox" id="mute" checked>
+            <label for="mute" class="mute__label">mute</label>
+        </div>
+    </header>
+
+    <main class="main main_index">
+        <img src="img/logo.png" alt="Логотип к фильму Бэтмен" class="logo" width="329" height="235">
+    </main>
+
+    <footer class="footer">
+        <ul class="footer__links">
+            <li><a href="#" class="footer__link">Политика конфиденциальности</a></li>
+            <li><a href="#" class="footer__link">Условия эксплуатации</a></li>
+            <li><a href="#" class="footer__link">Выбор объявлений</a></li>
+            <li><a href="#" class="footer__link">Настройки файлов cookie</a></li>
+        </ul>
+
+        <p class="footer__copyright">© 2022 WBEI TM & © DC</p>
+    </footer>
+</body>
+</html>
